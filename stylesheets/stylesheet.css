@@ -26,7 +26,11 @@ time, mark, audio, video {
   padding: 0;
   border: 0;
   font: inherit;
-  vertical-align: baseline;
+  vertical-align: middle;
+}
+
+td{
+  text-align:center;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -64,6 +68,11 @@ h1, h2, h3, h4, h5, h6 {
   color:#222222;
   font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
   letter-spacing: -1px;
+}
+
+pre {
+  color:#222222;
+  font-family: 'Lucia Grande', 'Calibri', Helvetica, Arial, sans-serif;
 }
 
 h1 {
@@ -157,7 +166,7 @@ p img {
   border: none;
 }
 
-pre, code {
+code {
   width: 100%;
   color: #222;
   background-color: #fff;
@@ -173,7 +182,7 @@ pre, code {
 pre {
   width: 100%;
   padding: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,.1);
+ /* box-shadow: 0 0 10px rgba(0,0,0,.1);*/
   overflow: auto;
 }
 
@@ -234,7 +243,7 @@ hr {
 }
 
 table {
-  border: 1px solid #373737;
+  border: 1px solid DarkGray;
   margin-bottom: 20px;
   text-align: left;
  }
@@ -248,7 +257,6 @@ th {
 
 td {
   padding: 10px;
-  border: 1px solid #373737;
  }
 
 form {
